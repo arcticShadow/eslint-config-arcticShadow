@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "peerDependencies": {
+    "eslint": "^4.19.1",
     "eslint-config-semistandard": "^12.0.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.11.0",
