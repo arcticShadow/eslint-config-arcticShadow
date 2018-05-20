@@ -1,6 +1,6 @@
 module.exports = {
   extends: "semistandard",
-  // rules: {
-  //
-  // }
+  rules: {
+    "comma-dangle": ["error", "always-multiline"],
+  },
 };
