@@ -1,5 +1,8 @@
 module.exports = {
-  extends: "semistandard",
+  extends: [
+    "semistandard",
+    "plugin:react/recommended"
+  ],
   rules: {
     "comma-dangle": ["error", "always-multiline"],
   },
